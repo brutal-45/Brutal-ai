@@ -1,0 +1,650 @@
+/* SplashScreen.module.css - Aesthetic Premium Design */
+
+/* Base container */
+.splashContainer {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  overflow: hidden;
+  background: #0e0e12;
+}
+
+/* Floating gradient orbs - Blue to Purple */
+.floatOrb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  animation: floatOrb 15s ease-in-out infinite;
+}
+
+.floatOrb1 {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+  top: -200px;
+  left: -200px;
+  animation-delay: 0s;
+}
+
+.floatOrb2 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, transparent 70%);
+  bottom: -150px;
+  right: -150px;
+  animation-delay: -5s;
+}
+
+.floatOrb3 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(6, 182, 212, 0.08) 0%, transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: -10s;
+}
+
+@keyframes floatOrb {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(30px, -30px) scale(1.05);
+  }
+  50% {
+    transform: translate(-20px, 20px) scale(0.98);
+  }
+  75% {
+    transform: translate(20px, 30px) scale(1.02);
+  }
+}
+
+/* Background layers */
+.backgroundLayer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* Soft gradient mesh */
+.gradientWave {
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(ellipse 80% 50% at 50% 50%, rgba(59, 130, 246, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 80% at 20% 80%, rgba(139, 92, 246, 0.04) 0%, transparent 40%),
+    radial-gradient(ellipse 60% 80% at 80% 20%, rgba(6, 182, 212, 0.05) 0%, transparent 40%);
+  animation: gradientWave 12s ease-in-out infinite;
+}
+
+@keyframes gradientWave {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+/* Light waves - subtle */
+.lightWave {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  left: -50%;
+  top: -50%;
+  background: 
+    linear-gradient(45deg, transparent 45%, rgba(59, 130, 246, 0.02) 50%, transparent 55%),
+    linear-gradient(-45deg, transparent 45%, rgba(139, 92, 246, 0.02) 50%, transparent 55%);
+  animation: lightWave 25s linear infinite;
+}
+
+@keyframes lightWave {
+  0% {
+    transform: translateX(-25%) translateY(-25%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(25%) translateY(25%) rotate(360deg);
+  }
+}
+
+/* Subtle grid overlay */
+.gridOverlay {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(59, 130, 246, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+  opacity: 0.4;
+}
+
+/* Ambient pulse - soft glow */
+.ambientPulse {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.08) 0%, transparent 60%);
+  animation: ambientPulse 6s ease-in-out infinite;
+  filter: blur(60px);
+}
+
+@keyframes ambientPulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.8;
+  }
+}
+
+/* Particle glow */
+.particleGlow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 30% 30%, rgba(59, 130, 246, 0.03) 0%, transparent 30%),
+    radial-gradient(circle at 70% 70%, rgba(139, 92, 246, 0.03) 0%, transparent 30%);
+  animation: particleGlow 8s ease-in-out infinite alternate;
+}
+
+@keyframes particleGlow {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Canvas container for particles - subtle */
+.particleCanvas {
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+}
+
+/* Boot sequence styles - minimal */
+.bootContainer {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 360px;
+  z-index: 10;
+}
+
+.bootText {
+  font-family: 'Geist Mono', 'JetBrains Mono', monospace;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.bootLine {
+  margin-bottom: 12px;
+  opacity: 0;
+  animation: bootLineIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes bootLineIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bootContent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bootPrefix {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.bootActive {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.cursor {
+  display: inline-block;
+  width: 8px;
+  height: 16px;
+  background: #3b82f6;
+  margin-left: 2px;
+  border-radius: 2px;
+  animation: cursorBlink 0.8s step-end infinite;
+  vertical-align: text-bottom;
+}
+
+@keyframes cursorBlink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Logo container - centered */
+.logoContainer {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  animation: logoFloat 4s ease-in-out infinite;
+}
+
+@keyframes logoFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Thin rotating halo - blue to purple gradient */
+.rotatingRing {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(59, 130, 246, 0.6) 60deg,
+    transparent 120deg,
+    rgba(139, 92, 246, 0.4) 180deg,
+    transparent 240deg,
+    rgba(6, 182, 212, 0.5) 300deg,
+    transparent 360deg
+  );
+  animation: ringRotate 6s linear infinite;
+  filter: blur(1px);
+  opacity: 0.8;
+}
+
+@keyframes ringRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Inner breathing glow ring */
+.innerRing {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  animation: innerRingPulse 3s ease-in-out infinite;
+  box-shadow: 0 0 30px 10px rgba(59, 130, 246, 0.1);
+}
+
+@keyframes innerRingPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+    border-color: rgba(59, 130, 246, 0.3);
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+    border-color: rgba(139, 92, 246, 0.5);
+  }
+}
+
+/* Logo image - elegant rounded */
+.logoImage {
+  position: relative;
+  z-index: 10;
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  box-shadow: 
+    0 0 50px 15px rgba(59, 130, 246, 0.2),
+    0 0 100px 30px rgba(139, 92, 246, 0.1);
+  animation: logoGlow 4s ease-in-out infinite;
+}
+
+@keyframes logoGlow {
+  0%, 100% {
+    box-shadow: 
+      0 0 50px 15px rgba(59, 130, 246, 0.2),
+      0 0 100px 30px rgba(139, 92, 246, 0.1);
+  }
+  50% {
+    box-shadow: 
+      0 0 70px 25px rgba(59, 130, 246, 0.3),
+      0 0 140px 50px rgba(139, 92, 246, 0.15);
+  }
+}
+
+/* Brand name - elegant typography */
+.brandName {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textFadeIn 0.8s ease-out forwards;
+}
+
+@keyframes textFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tagline - soft muted */
+.tagline {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-weight: 500;
+  animation: textFadeIn 0.8s ease-out 0.2s forwards;
+  opacity: 0;
+}
+
+/* Loading section */
+.loadingSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Circular loader - elegant */
+.circularLoader {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.loaderSvg {
+  position: absolute;
+  inset: 0;
+  transform: rotate(-90deg);
+}
+
+.loaderBackground {
+  fill: none;
+  stroke: rgba(59, 130, 246, 0.1);
+  stroke-width: 3;
+  rx: 20px;
+  ry: 20px;
+}
+
+.loaderProgress {
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.percentageText {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #3b82f6;
+}
+
+/* Progress bar - rounded */
+.progressBar {
+  width: 200px;
+  height: 4px;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progressBarFill {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  border-radius: 2px;
+  transition: width 0.2s ease-out;
+}
+
+/* Energy pulse effect - soft */
+.energyPulse {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid rgba(59, 130, 246, 0.6);
+  box-shadow: 0 0 40px 15px rgba(59, 130, 246, 0.2);
+  animation: energyPulse 1s ease-out forwards;
+}
+
+@keyframes energyPulse {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+  }
+  100% {
+    width: 400px;
+    height: 400px;
+    opacity: 0;
+  }
+}
+
+/* Light flash effect */
+.lightFlash {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.08) 0%, transparent 60%);
+  animation: lightFlash 0.5s ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes lightFlash {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Light beam sweep */
+.lightBeam {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.lightBeamLine {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
+  animation: lightBeamSweep 0.6s ease-in-out;
+}
+
+@keyframes lightBeamSweep {
+  0% {
+    left: -100px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    left: calc(100% + 100px);
+    opacity: 0;
+  }
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 36px;
+  font-size: 10px;
+  color: rgba(59, 130, 246, 0.4);
+  letter-spacing: 4px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* Fade out animation */
+.fadeOut {
+  animation: fadeOut 0.5s ease-out forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .gradientWave,
+  .lightWave,
+  .ambientPulse,
+  .rotatingRing,
+  .innerRing,
+  .logoImage,
+  .particleGlow,
+  .logoWrapper,
+  .brandName,
+  .floatOrb {
+    animation: none;
+  }
+  
+  .bootLine {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  .brandName {
+    font-size: 42px;
+    letter-spacing: -0.5px;
+  }
+  
+  .tagline {
+    font-size: 11px;
+    letter-spacing: 3px;
+  }
+  
+  .logoImage {
+    width: 75px;
+    height: 75px;
+    border-radius: 18px;
+  }
+  
+  .rotatingRing {
+    width: 130px;
+    height: 130px;
+  }
+  
+  .innerRing {
+    width: 105px;
+    height: 105px;
+  }
+  
+  .circularLoader {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .percentageText {
+    font-size: 20px;
+  }
+  
+  .progressBar {
+    width: 160px;
+  }
+  
+  .ambientPulse {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .bootContainer {
+    width: 280px;
+  }
+  
+  .bootText {
+    font-size: 13px;
+  }
+  
+  .footer {
+    font-size: 9px;
+    letter-spacing: 3px;
+    bottom: 28px;
+  }
+  
+  .floatOrb1 {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .floatOrb2 {
+    width: 350px;
+    height: 350px;
+  }
+  
+  .floatOrb3 {
+    width: 300px;
+    height: 300px;
+  }
+}

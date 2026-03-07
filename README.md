@@ -1025,7 +1025,7 @@ copies or substantial portions of the Software.
 
 ### **DEVELOPED UNDER BRUTALTOOLS**
 
-**Made with ❤️ by the Brutal.ai Team**
+**Made with ❤️ by the Brutal-ai Team**
 
 [![Brutal-ai](https://img.shields.io/badge/Brutal.ai-Powered-blue?style=for-the-badge)](https://brutal-ai)
 

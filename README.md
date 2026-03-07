@@ -1027,8 +1027,8 @@ copies or substantial portions of the Software.
 
 **Made with ❤️ by the Brutal.ai Team**
 
-[![Brutal.ai](https://img.shields.io/badge/Brutal.ai-Powered-blue?style=for-the-badge)](https://brutal.ai)
+[![Brutal-ai](https://img.shields.io/badge/Brutal.ai-Powered-blue?style=for-the-badge)](https://brutal-ai)
 
-[⬆ Back to Top](#-brutalai)
+[⬆ Back to Top](#-brutal-ai)
 
 </div>

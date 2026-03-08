@@ -28,7 +28,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  📖 NAVIGATION                                              │
+│  📖 NAVIGATION                                               │
 ├─────────────────────────────────────────────────────────────┤
 │  → Overview           → Features        → Animations        │
 │  → Tech Stack         → Project Structure → Quick Start     │
@@ -81,56 +81,185 @@ Brutal.ai is a next-generation AI platform designed for developers, creators, an
 
 ## 🖼️ Screenshots
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 🏠 Landing Page - Hero Section
 
-### 🏠 Landing Page
-```
-╔══════════════════════════════════╗
-║  🌌 HERO SECTION                 ║
-║  ├─ 3D Parallax Orbs             ║
-║  ├─ Animated Grid Pattern        ║
-║  ├─ Typewriter Code Panel        ║
-║  └─ Floating Particles           ║
-╠══════════════════════════════════╣
-║  ✨ FEATURES SECTION             ║
-║  ├─ 3D Tilt Cards                ║
-║  ├─ Dynamic Spotlight            ║
-║  └─ Border Glow Effects          ║
-╠══════════════════════════════════╣
-║  🚀 CTA SECTION                  ║
-║  └─ Interactive Animations       ║
-╚══════════════════════════════════╝
-```
+<div align="center">
+<img src="./screenshots/hero-section.png" alt="Hero Section Screenshot" width="100%" />
+</div>
 
-</td>
-<td width="50%" valign="top">
+**📸 Screenshot Description:**
+
+The Hero Section showcases Brutal.ai's premium landing experience with a stunning two-column layout:
+
+| Component | Description |
+|-----------|-------------|
+| 🎨 **Left Side** | Features the animated "Brutal.ai" title with gradient color cycling, floating crown badge, subtitle with shimmer effects, two interactive CTA buttons with 3D hover effects, and three animated stat cards showing platform metrics |
+| 💻 **Right Side** | Displays the typewriter code terminal with live syntax highlighting, rotating gradient borders, pulsing glow effects, scan line animation, and real-time code generation simulation |
+| 🌌 **Background** | Contains 3D parallax orbs that follow mouse movement, animated grid pattern, and 20+ floating particles with random opacity animations |
+| ✨ **Effects** | Shimmer animations on buttons, floating particles throughout, gradient text with animated color cycling |
+
+---
+
+### ✨ Features Section - 3D Interactive Cards
+
+<div align="center">
+<img src="./screenshots/features-section.png" alt="Features Section Screenshot" width="100%" />
+</div>
+
+**📸 Screenshot Description:**
+
+The Features Section presents 6 interactive cards with true 3D tilt effects:
+
+| Feature | Visual Effect |
+|---------|---------------|
+| 🎯 **3D Tilt** | Cards rotate in real-time following mouse position with perspective depth |
+| 💡 **Dynamic Spotlight** | A glowing spotlight effect follows the cursor across each card surface |
+| 🌟 **Icon Animations** | 3D rotating icons with pulsing glow effects on each card |
+| 🔆 **Border Glow** | Inset and outer box-shadow creates a neon border effect on hover |
+| 🎈 **Particles** | 5 floating particles rise from each card on hover |
+| ➡️ **Arrow Indicator** | Slide-in arrow appears on the right side when hovering |
+
+The section includes animated background orbs and moving horizontal lines for visual depth.
+
+---
 
 ### 💬 AI Chat Interface
-```
-╔══════════════════════════════════╗
-║  💬 CHAT INTERFACE               ║
-║  ├─ Code Syntax Highlighting     ║
-║  ├─ Markdown Support (GFM)       ║
-║  ├─ Streaming Responses          ║
-║  ├─ Voice Input                  ║
-║  └─ PDF/TXT Export               ║
-╠══════════════════════════════════╣
-║  🛠️ TOOLS HUB                    ║
-║  ├─ 24+ AI Tools                 ║
-║  ├─ Category Organization        ║
-║  └─ Consistent UI/UX             ║
-╠══════════════════════════════════╣
-║  🎨 IMAGE GENERATION             ║
-║  ├─ 12 Image Styles              ║
-║  └─ Gallery & Favorites          ║
-╚══════════════════════════════════╝
-```
 
+<div align="center">
+<img src="./screenshots/chat-interface.png" alt="Chat Interface Screenshot" width="100%" />
+</div>
+
+**📸 Screenshot Description:**
+
+The Chat Interface provides a ChatGPT-inspired experience with advanced features:
+
+| Component | Description |
+|-----------|-------------|
+| 📝 **Message Area** | Clean conversation display with user and AI messages, markdown rendering, and code syntax highlighting |
+| 🎨 **Syntax Highlighting** | Code blocks feature Prism.js highlighting with One Dark theme colors |
+| ⚡ **Streaming Responses** | Real-time token-by-token output with typewriter animation effect |
+| 📤 **Input Bar** | Modern input with voice button, file attachment support, and send/stop controls |
+| 📚 **Sidebar** | Collapsible conversation history panel with new chat button and tools access |
+| 🛠️ **Tools Button** | Quick access to 24+ AI tools from the header |
+
+The interface supports both dark and light modes with system preference detection.
+
+---
+
+### 🛠️ AI Tools Hub
+
+<div align="center">
+<img src="./screenshots/tools-hub.png" alt="Tools Hub Screenshot" width="100%" />
+</div>
+
+**📸 Screenshot Description:**
+
+The Tools Hub organizes 24+ specialized AI tools into categories:
+
+| Category | Tools Included |
+|----------|----------------|
+| 🎨 **Creative** | Image Generator, Logo Maker, Background Remover, Thumbnail Creator, Poster Designer |
+| 💻 **Developer** | Code Generator, Debugger, Website Builder, API Documentation Writer |
+| 📈 **Business** | Business Plan, Marketing Strategy, Ad Copy Writer, Startup Name Generator |
+| 🧑‍💼 **Productivity** | Resume Builder, Email Writer, PDF Summarizer, Notes Generator |
+| 🌍 **Language** | Translator, Grammar Fixer, Text Rewriter, Tone Changer |
+
+Each tool card features icon animation, hover effects, and quick access buttons.
+
+---
+
+### 🎨 Image Generation
+
+<div align="center">
+<img src="./screenshots/image-generator.png" alt="Image Generator Screenshot" width="100%" />
+</div>
+
+**📸 Screenshot Description:**
+
+The Image Generation interface provides powerful creative tools:
+
+| Feature | Description |
+|---------|-------------|
+| 📝 **Prompt Input** | Large text area for detailed image descriptions |
+| 🎭 **Style Selector** | 12 image styles: Realistic, Cinematic, Anime, 3D, Digital Art, Pixel Art, Logo, Thumbnail, Poster, UI Mockup, Product, Concept Art |
+| 📐 **Aspect Ratios** | 6 ratios: 1:1, 16:9, 9:16, 4:3, 3:4, 21:9 |
+| 📊 **Resolution** | HD, 2K, 4K quality options |
+| 💡 **Lighting** | Natural, Studio, Dramatic, Soft, Cinematic presets |
+| 🎨 **Color Tones** | Vibrant, Warm, Cool, Muted, Monochrome, Pastel |
+| 🖼️ **Gallery** | Generated images displayed in grid with favorites system |
+
+---
+
+### 📱 Tool Workspace
+
+<div align="center">
+<img src="./screenshots/tool-workspace.png" alt="Tool Workspace Screenshot" width="100%" />
+</div>
+
+**📸 Screenshot Description:**
+
+Each tool opens in a dedicated workspace with consistent UI:
+
+| Section | Features |
+|---------|----------|
+| 🎯 **Header** | Tool icon, name, description, and PRO badge for premium tools |
+| 📝 **Input Area** | Large textarea with character counter and placeholder guidance |
+| ⚡ **Generate Button** | Animated gradient button with loading states |
+| 📄 **Output Preview** | Typewriter animation for generated content with copy/download |
+| 📚 **History Tab** | Previous generations with favorites filter |
+| 💡 **Tips Section** | Contextual tips for better results |
+
+---
+
+### 🌙 Dark Mode Comparison
+
+<div align="center">
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="./screenshots/dark-mode.png" alt="Dark Mode" width="100%" />
+<br/><b>🌙 Dark Mode</b>
+</td>
+<td width="50%" align="center">
+<img src="./screenshots/light-mode.png" alt="Light Mode" width="100%" />
+<br/><b>☀️ Light Mode</b>
 </td>
 </tr>
 </table>
+</div>
+
+**📸 Screenshot Description:**
+
+Brutal.ai features a beautiful dual-theme system:
+
+| Theme | Background | Text | Accents |
+|-------|------------|------|---------|
+| 🌙 **Dark Mode** | `#0F172A` deep navy | `#f1f5f9` light gray | `#8b5cf6` purple, `#3b82f6` blue |
+| ☀️ **Light Mode** | `#F9FAFB` off-white | `#1e293b` dark slate | `#6C5CE7` violet, `#3b82f6` blue |
+
+Themes are automatically detected from system preferences with manual toggle available.
+
+---
+
+### 🎬 Animation Preview
+
+<div align="center">
+<img src="./screenshots/animations.gif" alt="Animations Preview" width="100%" />
+</div>
+
+**📸 Screenshot Description:**
+
+A glimpse of the smooth 60fps animations throughout the platform:
+
+| Animation | Effect |
+|-----------|--------|
+| 🌀 **Parallax Orbs** | Mouse-reactive floating with spring physics |
+| 🃏 **3D Card Tilt** | Perspective rotation following cursor |
+| ✨ **Shimmer** | Moving light gradient on interactive elements |
+| 💫 **Glow Pulse** | Pulsing neon glow on buttons and icons |
+| 📝 **Typewriter** | Character-by-character text reveal |
+| 🎭 **Glitch** | Cyberpunk-style random character substitution |
+| 🌊 **Gradient Flow** | Animated color transitions on text and backgrounds |
 
 ---
 
@@ -1025,10 +1154,10 @@ copies or substantial portions of the Software.
 
 ### **DEVELOPED UNDER BRUTALTOOLS**
 
-**Made with ❤️ by the Brutal-ai Team**
+**Made with ❤️ by the Brutal.ai Team**
 
-[![Brutal-ai](https://img.shields.io/badge/Brutal.ai-Powered-blue?style=for-the-badge)](https://brutal-ai)
+[![Brutal.ai](https://img.shields.io/badge/Brutal.ai-Powered-blue?style=for-the-badge)](https://brutal.ai)
 
-[⬆ Back to Top](#-brutal-ai)
+[⬆ Back to Top](#-brutalai)
 
 </div>

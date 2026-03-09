@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Brutal.ai
+# 🚀 Brutal-ai
 
 <img src="./public/logo.png" alt="Brutal.ai Logo" width="100" height="100" />
 

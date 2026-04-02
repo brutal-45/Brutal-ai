@@ -754,30 +754,30 @@ bun run lint
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  ▲ VERCEL DEPLOYMENT STEPS                                       │
+│  ▲ VERCEL DEPLOYMENT STEPS                                      │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
+│                                                                 │
 │  1️⃣  FORK & CLONE                                               │
-│      git clone https://github.com/YOUR_USERNAME/brutal-ai.git   │
-│                                                                  │
-│  2️⃣  CREATE VERCEL PROJECT                                       │
+│     git clone https://github.com/brutal-45/Brutal-ai.git        │
+│                                                                 │
+│  2️⃣  CREATE VERCEL PROJECT                                      │
 │      → Go to vercel.com                                          │
 │      → Click "Add New..." → "Project"                            │
 │      → Import your GitHub repository                             │
 │                                                                  │
-│  3️⃣  CONFIGURE SETTINGS                                          │
+│  3️⃣  CONFIGURE SETTINGS                                         │
 │      ┌─────────────────┬─────────────────────┐                  │
 │      │ Framework       │ Next.js (auto)      │                  │
 │      │ Build Command   │ bun run build       │                  │
 │      │ Install Command │ bun install         │                  │
 │      │ Output Dir      │ .next               │                  │
 │      └─────────────────┴─────────────────────┘                  │
-│                                                                  │
-│  4️⃣  DEPLOY                                                      │
-│      Click "Deploy" → Wait for build → Done! 🎉                  │
+│                                                                 │
+│  4️⃣  DEPLOY                                                     │
+│      Click "Deploy" → Wait for build → Done! 🎉                 │
 │                                                                  │
 │  🌐 Your app: https://your-project.vercel.app                   │
-│                                                                  │
+│                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -798,9 +798,9 @@ bun run lint
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║  📡 API ENDPOINTS                                               ║
+║  📡 API ENDPOINTS                                            ║
 ╠═══════════════════════════════════════════════════════════════╣
-║                                                                ║
+║                                                               ║
 ║  ┌───────────────┬────────┬─────────────────────────────────┐ ║
 ║  │ Endpoint      │ Method │ Description                     │ ║
 ║  ├───────────────┼────────┼─────────────────────────────────┤ ║
@@ -810,7 +810,7 @@ bun run lint
 ║  │ /api/monitor  │ GET    │ System metrics (admin only)     │ ║
 ║  │ /api/tools/*  │ POST   │ 24+ specialized tool endpoints  │ ║
 ║  └───────────────┴────────┴─────────────────────────────────┘ ║
-║                                                                ║
+║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
@@ -898,7 +898,7 @@ data: [DONE]
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  📐 IMAGE SIZE OPTIONS                                           │
+│  📐 IMAGE SIZE OPTIONS                                          │
 ├────────────────┬────────────────┬───────────────────────────────┤
 │  Size          │ Aspect Ratio   │ Best For                      │
 ├────────────────┼────────────────┼───────────────────────────────┤
@@ -916,7 +916,7 @@ data: [DONE]
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  🎨 AVAILABLE IMAGE STYLES                                       │
+│  🎨 AVAILABLE IMAGE STYLES                                      │
 ├────────────────┬────────────────────────────────────────────────┤
 │  realistic     │ Photorealistic, ultra detailed, professional  │
 │  cinematic     │ Movie still, dramatic lighting, film grain    │
@@ -1002,7 +1002,7 @@ POST /api/tools/email
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║  🎨 COLOR PALETTE                                               ║
+║  🎨 COLOR PALETTE                                             ║
 ╠═══════════════════════════════════════════════════════════════╣
 ║                                                                ║
 ║  LIGHT MODE                    DARK MODE                       ║
@@ -1083,7 +1083,7 @@ POST /api/tools/email
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  📱 PLATFORM AVAILABILITY                                        │
+│  📱 PLATFORM AVAILABILITY                                       │
 ├────────────────┬────────────┬───────────────────────────────────┤
 │  Platform      │ Format     │ Status                            │
 ├────────────────┼────────────┼───────────────────────────────────┤

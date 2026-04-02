@@ -268,14 +268,14 @@ A glimpse of the smooth 60fps animations throughout the platform:
 ### 🌌 Hero Section - Next-Gen Animations
 
 ```
-┌──────────────────────────────────────────────────────────────┐
+┌───────────────────────────────────────────────────────────────────────────────────┐
 │  ██████╗ ██╗   ██╗████████╗ ██████╗ ██████╗ ███████╗██╗     ██╗███╗   ██╗███████╗ │
 │  ██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗██╔══██╗██╔════╝██║     ██║████╗  ██║██╔════╝ │
 │  ██████╔╝██║   ██║   ██║   ██║   ██║██████╔╝█████╗  ██║     ██║██╔██╗ ██║█████╗   │
 │  ██╔══██╗██║   ██║   ██║   ██║   ██║██╔══██╗██╔══╝  ██║     ██║██║╚██╗██║██╔══╝   │
 │  ██████╔╝╚██████╔╝   ██║   ╚██████╔╝██║  ██║███████╗███████╗██║██║ ╚████║███████╗ │
 │  ╚═════╝  ╚═════╝    ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝ │
-└──────────────────────────────────────────────────────────────┘
+└───────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 | Effect | Description | Implementation |
@@ -305,15 +305,15 @@ A glimpse of the smooth 60fps animations throughout the platform:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                     💬 AI CHAT FEATURES                          │
+│                     💬 AI CHAT FEATURES                         │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐  │
-│  │ 🎨 Syntax       │  │ 📝 Markdown     │  │ ⚡ Streaming    │  │
+│  │ 🎨 Syntax       │  │ 📝 Markdown    │  │ ⚡ Streaming   │  │
 │  │ Highlighting    │  │ Support (GFM)   │  │ Responses       │  │
 │  │ Prism.js        │  │ react-markdown  │  │ Real-time       │  │
 │  └─────────────────┘  └─────────────────┘  └─────────────────┘  │
 │  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐  │
-│  │ 🎤 Voice Input  │  │ 📄 PDF Export   │  │ 🌓 Dark/Light   │  │
+│  │ 🎤 Voice Input  │  │ 📄 PDF Export  │  │ 🌓 Dark/Light   │  │
 │  │ Web Speech API  │  │ jsPDF           │  │ System Detect   │  │
 │  └─────────────────┘  └─────────────────┘  └─────────────────┘  │
 └─────────────────────────────────────────────────────────────────┘
@@ -333,7 +333,7 @@ A glimpse of the smooth 60fps animations throughout the platform:
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║  🏢 ENTERPRISE INFRASTRUCTURE                                  ║
+║  🏢 ENTERPRISE INFRASTRUCTURE                                 ║
 ╠═══════════════════════════════════════════════════════════════╣
 ║  ⚡ Rate Limiting      → Token bucket + sliding window        ║
 ║  🔗 Connection Pooling → Up to 100 concurrent connections     ║
@@ -353,28 +353,28 @@ A glimpse of the smooth 60fps animations throughout the platform:
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════╗
-║                    🎨 ANIMATION SYSTEM ARCHITECTURE                    ║
+║                    🎨 ANIMATION SYSTEM ARCHITECTURE                   ║
 ╠═══════════════════════════════════════════════════════════════════════╣
-║                                                                        ║
-║  ┌──────────────┐   ┌──────────────┐   ┌──────────────┐              ║
-║  │ 🌟 3D EFFECTS│   │ ✨ GLOW FX   │   │ 🔄 MOTION    │              ║
-║  ├──────────────┤   ├──────────────┤   ├──────────────┤              ║
-║  │ Perspective  │   │ Multi-layer  │   │ Spring Phys  │              ║
-║  │ Parallax     │   │ Glow Rings   │   │ Infinite     │              ║
-║  │ Depth Layer  │   │ Spotlight    │   │ Stagger      │              ║
-║  │ Preserve-3d  │   │ Grad Borders │   │ Scroll-trig  │              ║
-║  └──────────────┘   └──────────────┘   └──────────────┘              ║
-║                                                                        ║
-║  ┌──────────────┐   ┌──────────────┐   ┌──────────────┐              ║
-║  │ 🎭 VISUAL FX │   │ 🎯 MICRO-INT │   │ ⚡ PERFORMANCE│              ║
-║  ├──────────────┤   ├──────────────┤   ├──────────────┤              ║
-║  │ Glitch       │   │ Button Press │   │ GPU accel    │              ║
-║  │ Scan Lines   │   │ Card Tilt    │   │ will-change  │              ║
-║  │ Shimmer      │   │ Icon Spin    │   │ Debounce     │              ║
-║  │ Particles    │   │ Text Reveal  │   │ Intersection │              ║
-║  │ Noise        │   │ Arrow Bounce │   │ Reduced mot  │              ║
-║  └──────────────┘   └──────────────┘   └──────────────┘              ║
-║                                                                        ║
+║                                                                       ║
+║  ┌──────────────┐   ┌──────────────┐   ┌──────────────┐               ║
+║  │ 🌟 3D EFFECTS│   │ ✨ GLOW FX  │   │ 🔄 MOTION    │              ║
+║  ├──────────────┤   ├──────────────┤   ├──────────────┤               ║
+║  │ Perspective  │   │ Multi-layer  │   │ Spring Phys  │               ║
+║  │ Parallax     │   │ Glow Rings   │   │ Infinite     │               ║
+║  │ Depth Layer  │   │ Spotlight    │   │ Stagger      │               ║
+║  │ Preserve-3d  │   │ Grad Borders │   │ Scroll-trig  │               ║
+║  └──────────────┘   └──────────────┘   └──────────────┘               ║
+║                                                                       ║
+║  ┌──────────────┐   ┌──────────────┐   ┌──────────────┐               ║
+║  │ 🎭 VISUAL FX │   │ 🎯 MICRO-INT │   │🔥PERFORMANCE│               ║ 
+║  ├──────────────┤   ├──────────────┤   ├──────────────┤               ║
+║  │ Glitch       │   │ Button Press │   │ GPU accel    │               ║
+║  │ Scan Lines   │   │ Card Tilt    │   │ will-change  │               ║
+║  │ Shimmer      │   │ Icon Spin    │   │ Debounce     │               ║
+║  │ Particles    │   │ Text Reveal  │   │ Intersection │               ║
+║  │ Noise        │   │ Arrow Bounce │   │ Reduced mot  │               ║
+║  └──────────────┘   └──────────────┘   └──────────────┘               ║
+║                                                                       ║
 ╚═══════════════════════════════════════════════════════════════════════╝
 ```
 

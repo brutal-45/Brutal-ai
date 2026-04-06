@@ -9,7 +9,7 @@ const stats = [
     icon: Cpu,
     value: 10,
     suffix: 'M+',
-    label: 'Queries Processed',
+    label: 'Queries Processed', 
     description: 'AI requests handled with precision',
     color: 'from-[#3b82f6] to-[#8b5cf6]',
     shadowColor: 'rgba(59, 130, 246, 0.3)',

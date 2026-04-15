@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server'; 
 import ZAI from 'z-ai-web-dev-sdk';
 
 const SYSTEM_PROMPT = `You are Brutal.ai, a helpful AI assistant created by BRUTALTOOLS. You are smart, fast, and provide excellent responses.

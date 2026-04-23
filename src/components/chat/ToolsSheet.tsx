@@ -14,7 +14,7 @@ import {
 import { motion } from 'framer-motion';
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
-import { ScrollArea } from '@/components/ui/scroll-area';
+import { ScrollArea } from '@/components/ui/scroll-area'; 
 import { toolCategories, type Tool } from '@/types/chat';
 import { useAppStore } from '@/store/app-store';
 import { cn } from '@/lib/utils';

@@ -9,7 +9,7 @@ interface UploadedFile {
   id: string;
   name: string;
   type: string;
-  size: number;
+  size: number; 
   content?: string;
   preview?: string;
 }

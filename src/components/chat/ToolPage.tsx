@@ -13,7 +13,7 @@ interface ToolPageProps {
   tool: Tool | null;
   open: boolean;
   onClose: () => void;
-}
+} 
 
 export function ToolPage({ tool, open, onClose }: ToolPageProps) {
   const [input, setInput] = useState('');

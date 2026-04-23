@@ -14,7 +14,7 @@ export function TypingIndicator() {
     >
       <div className="flex gap-3 sm:gap-4 px-2 sm:px-4 py-3">
         {/* Avatar - Aesthetic Style */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0"> 
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}

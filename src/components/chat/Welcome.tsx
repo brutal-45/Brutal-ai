@@ -9,7 +9,7 @@ const suggestions = [
   { icon: Mail, text: 'Help me write a professional email', color: 'bg-[#F97316]/60' },
   { icon: Sparkles, text: 'Generate creative ideas for a mobile app', color: 'bg-[#F97316]/40' },
 ];
-
+ 
 interface WelcomeProps {
   onSuggestionClick?: (text: string) => void;
 }

@@ -13,7 +13,7 @@ import {
   X,
   Check,
   Sparkles,
-  Zap,
+  Zap, 
   Code,
   MessageCircle,
 } from 'lucide-react';

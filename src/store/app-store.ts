@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-type View = 'landing' | 'chat' | 'image-gen' | 'image-tools' | 'tool';
+type View = 'landing' | 'chat' | 'image-gen' | 'image-tools' | 'tool'; 
 
 interface AppState {
   currentView: View;

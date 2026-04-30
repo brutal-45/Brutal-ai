@@ -12,7 +12,7 @@ export interface ChatConversation {
   updatedAt: Date;
 }
 
-export interface UploadedFile {
+export interface UploadedFile { 
   id: string;
   name: string;
   type: string;

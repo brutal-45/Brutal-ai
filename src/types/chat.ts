@@ -13,7 +13,7 @@ export interface ChatState {
   updateLastAssistantMessage: (content: string) => void;
   setTyping: (isTyping: boolean) => void;
   setCurrentTool: (tool: Tool | null) => void;
-  clearMessages: () => void;
+  clearMessages: () => void; 
 }
 
 export interface Tool {

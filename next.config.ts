@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
   // React configuration
   reactStrictMode: false,
   
-  // Image optimization
+  // Image optimization 
   images: {
     remotePatterns: [
       {

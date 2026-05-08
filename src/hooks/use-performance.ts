@@ -6,7 +6,7 @@ type PerformanceTier = 'low' | 'medium' | 'high';
 
 interface PerformanceConfig {
   tier: PerformanceTier;
-  particleCount: number;
+  particleCount: number; 
   enableBlur: boolean;
   enableShadows: boolean;
   animationComplexity: number;

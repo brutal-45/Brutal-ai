@@ -5,7 +5,7 @@
 <img src="./public/logo.png" alt="Brutal.ai Logo" width="100" height="100" />
 
 ### **Smarter. Faster. Brutal.**
-
+ 
 **A world-class AI SaaS platform built with Next.js 16**
 
 ```diff

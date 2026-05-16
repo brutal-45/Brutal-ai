@@ -3,7 +3,7 @@ Allow: /
 
 User-agent: Bingbot
 Allow: /
-
+ 
 User-agent: Twitterbot
 Allow: /
 

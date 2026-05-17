@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
-    "prebuild": "bash scripts/prebuild.sh || node scripts/prebuild.cjs || echo 'Skipping prebuild'",
+    "prebuild": "bash scripts/prebuild.sh || node scripts/prebuild.cjs || echo 'Skipping prebuild'", 
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",

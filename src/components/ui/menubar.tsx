@@ -20,7 +20,7 @@ function Menubar({
       {...props}
     />
   )
-}
+} 
 
 function MenubarMenu({
   ...props

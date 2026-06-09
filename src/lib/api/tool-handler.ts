@@ -2,7 +2,7 @@
 // Creates consistent, scalable API handlers for all tools
 
 import { NextRequest, NextResponse } from 'next/server';
-import ZAI from 'z-ai-web-dev-sdk';
+import ZAI from 'z-ai-web-dev-sdk'; 
 import { 
   checkRateLimit, 
   addSecurityHeaders, 

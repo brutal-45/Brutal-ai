@@ -1,4 +1,4 @@
-// High-Performance Caching System
+// High-Performance Caching System 
 // In-memory cache with TTL, LRU eviction, and stats
 
 interface CacheEntry<T> {

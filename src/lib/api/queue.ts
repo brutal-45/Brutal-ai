@@ -3,7 +3,7 @@
 
 import { PRIORITY } from './config';
 
-// Queue item interface
+// Queue item interface 
 interface QueueItem<T, R> {
   id: string;
   data: T;

@@ -1,4 +1,4 @@
-import { create } from 'zustand';
+import { create } from 'zustand'; 
 
 type View = 'landing' | 'chat' | 'image-gen' | 'image-tools' | 'tool'; 
 

@@ -1,7 +1,7 @@
 // Monitoring and Health Check System
 // Real-time metrics, health checks, and performance monitoring
 
-interface RequestRecord {
+interface RequestRecord { 
   endpoint: string;
   latency: number;
   success: boolean;

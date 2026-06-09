@@ -3,7 +3,7 @@
 
 // Configuration
 export { API_CONFIG, PRIORITY, API_STATUS, API_ERRORS } from './config';
-export type { UserTier, RateLimitGroup, Priority } from './config';
+export type { UserTier, RateLimitGroup, Priority } from './config'; 
 
 // Simple cache implementation
 export { 

@@ -1,5 +1,5 @@
 // High-Performance Rate Limiter
-// Token bucket + sliding window algorithm for massive scale
+// Token bucket + sliding window algorithm for massive scale 
 // Supports millions of concurrent users with fair distribution
 
 import { NextRequest, NextResponse } from 'next/server';

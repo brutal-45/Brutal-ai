@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { Message, Tool } from '@/types/chat';
+import { Message, Tool } from '@/types/chat'; 
 
 const generateId = () => Math.random().toString(36).substring(2, 15);
 

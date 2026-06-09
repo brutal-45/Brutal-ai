@@ -4,7 +4,7 @@
 import { PRIORITY } from './config';
 import { getConnectionPool } from './connection-pool';
 
-// Circuit breaker states
+// Circuit breaker states 
 type CircuitState = 'closed' | 'open' | 'half-open';
 
 interface CircuitBreaker {

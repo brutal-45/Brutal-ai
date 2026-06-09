@@ -1,5 +1,5 @@
 'use client';
-
+ 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, Wrench, X, ChevronRight, Image as ImageIcon, Wand2, ArrowLeft } from 'lucide-react';

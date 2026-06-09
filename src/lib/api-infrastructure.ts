@@ -1,5 +1,5 @@
 /**
- * Brutal.ai - High-Capacity Scalable API Infrastructure
+ * Brutal.ai - High-Capacity Scalable API Infrastructure 
  * Handles massive traffic with caching, queuing, and connection pooling
  * Optimized for maximum throughput and unlimited requests
  */

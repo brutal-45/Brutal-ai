@@ -1,1 +1,1 @@
-# Brutal.ai Development Worklog 
+# Brutal.ai Development Worklog

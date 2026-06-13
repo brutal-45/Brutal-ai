@@ -1,7 +1,7 @@
 {
   "name": "Brutal.ai",
   "short_name": "Brutal.ai",
-  "description": "Smarter. Faster. Brutal. - AI-powered chat assistant",
+  "description": "Smarter. Faster. Brutal. - AI-powered chat assistant", 
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0F172A",

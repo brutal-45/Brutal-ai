@@ -27,7 +27,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  📖 NAVIGATION                                             │
+│  📖 NAVIGATION                                              │
 ├─────────────────────────────────────────────────────────────┤
 │  → Overview           → Features        → Animations        │
 │  → Tech Stack         → Project Structure → Quick Start     │

@@ -8,7 +8,7 @@
 **A world-class AI SaaS platform built with Next.js 16**
 
 ```diff
-     + Premium landing page • Powerful AI chatbot • 24+ specialized AI tools • Enterprise-grade infrastructure 
+     + Premium landing page • Powerful AI chatbot • 24+ specialized AI tools • Enterprise-grade infrastructure
 ```
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.1.3-black?style=flat-square&logo=next.js)](https://nextjs.org/)

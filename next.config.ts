@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"; 
 
 const nextConfig: NextConfig = {
   // Vercel automatically handles output, no need to specify

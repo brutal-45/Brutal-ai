@@ -1,4 +1,4 @@
-'use client';
+'use client'; 
 
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { Download, Smartphone, Monitor, Apple, Globe, Terminal, Check, Star, Zap, Shield, Clock, ChevronRight, QrCode } from 'lucide-react';

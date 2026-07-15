@@ -1,4 +1,4 @@
-'use client';
+'use client'; 
 
 import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from 'framer-motion';
 import { Code2, Zap, Shield, Smartphone, Globe, Cpu, Sparkles, ArrowRight, Star } from 'lucide-react';

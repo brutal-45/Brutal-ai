@@ -1,4 +1,4 @@
-// AI Module - Backward compatible wrapper using connection pool
+// AI Module - Backward compatible wrapper using connection pool 
 // Provides simple AI functions that use the enhanced infrastructure 
 
 import { withAIConnection, executeWithResilience } from './connection-pool';

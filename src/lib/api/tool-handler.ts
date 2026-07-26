@@ -1,4 +1,4 @@
-// Unified API Handler Factory
+// Unified API Handler Factory 
 // Creates consistent, scalable API handlers for all tools
 
 import { NextRequest, NextResponse } from 'next/server';

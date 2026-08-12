@@ -1,4 +1,4 @@
-interface SpeechRecognitionEvent extends Event {
+interface SpeechRecognitionEvent extends Event { 
   results: SpeechRecognitionResultList;
   resultIndex: number;
 } 

@@ -1,4 +1,4 @@
-// High-Performance Request Queue System 
+// High-Performance Request Queue System
 // Handles millions of concurrent requests with priority queuing
 
 import { PRIORITY } from './config';

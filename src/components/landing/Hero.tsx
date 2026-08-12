@@ -1,4 +1,4 @@
-'use client'; 
+'use client';
 
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { ArrowRight, Sparkles, ChevronDown, Zap, Star, Crown } from 'lucide-react';

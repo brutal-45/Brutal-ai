@@ -1,4 +1,4 @@
-// High-Performance API Configuration 
+// High-Performance API Configuration
 // Enterprise-grade, infinitely scalable configuration
  
 export const API_CONFIG = {

@@ -1,4 +1,4 @@
-'use client';
+'use client'; 
 
 import { Moon, Sun, Menu, Wrench, Trash2, Download, Save, Home, FileText } from 'lucide-react';
 import { useTheme } from 'next-themes';

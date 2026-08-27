@@ -1,8 +1,8 @@
-name: Python Script Update
+name: python script
 
 on:
   schedule:
-    - cron: "*/9 * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,22 +12,16 @@ jobs:
   update-timestamp:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Update timestamp file
+      - uses: actions/checkout@v3
+      - name: refactor python
         run: |
           TIMESTAMP_FILE="updates.txt"
           echo "Last checked: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" > "$TIMESTAMP_FILE"
-
-      - name: Commit and push changes
-        run: |
-          git config user.name "brutal-45 bot"
+          git config user.name "brutal-45"
           git config user.email "creatorsports81@gmail.com"
-          git add updates.txt
+          git add "$TIMESTAMP_FILE"
           if ! git diff --cached --quiet; then
-            git commit -m "Update timestamp: $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-            git push
-          else
-            echo "No changes to commit"
+            git commit -m "python script: $(date -u)"
           fi
+      - name: Push changes
+        run: git push origin HEAD
